@@ -52,7 +52,10 @@ namespace TDDSample.Web.Models.Rentals
                 return 200;
             }
 
-            throw  new InvalidOperationException();
+            // エラー
+            return 0;
+
+            // throw  new InvalidOperationException();
         }
     }
 }
